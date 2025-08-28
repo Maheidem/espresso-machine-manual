@@ -1,0 +1,33 @@
+title: "Manual da Máquina de Café Espresso"
+description: "Manual completo da máquina de café espresso em português - Fotografado e digitalizado com instruções completas"
+baseurl: "/espresso-machine-manual"
+url: "https://maheidem.github.io"
+
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Navigation
+header_pages:
+  - index.md
+  - gallery.md
+
+# GitHub repository
+repository: Maheidem/espresso-machine-manual
+
+# SEO
+lang: pt-BR
+author: Maheidem
+
+# Social media
+github_username: Maheidem
